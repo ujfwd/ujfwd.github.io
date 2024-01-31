@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .blog-post {
+            text-decoration: none;
+            color: black;
+        }
+        .blog-post:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Mein Blog</h1>
+
+<div class="grid-container">
+    <div class="grid-item">
+        <a href="post1.html" class="blog-post">
+            <img src="bild1.jpg" alt="Bild 1">
+            <p>Blog Beitrag 1</p>
+        </a>
+    </div>
+    <div class="grid-item">
+        <a href="post2.html" class="blog-post">
+            <img src="bild2.jpg" alt="Bild 2">
+            <p>Blog Beitrag 2</p>
+        </a>
+    </div>
+    <div class="grid-item">
+        <a href="post3.html" class="blog-post">
+            <img src="bild3.jpg" alt="Bild 3">
+            <p>Blog Beitrag 3</p>
+        </a>
+    </div>  
+</div>
+
+</body>
+</html>
